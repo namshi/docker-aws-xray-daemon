@@ -1,0 +1,9 @@
+app:
+  build: .
+  ports:
+    - "2000/udp:2000/udp"
+  command: --local-mode
+  environment:
+    AWS_ACCESS_KEY_ID:
+    AWS_SECRET_ACCESS_KEY:
+    AWS_REGION:
